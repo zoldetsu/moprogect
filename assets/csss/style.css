@@ -7,3 +7,15 @@ body {
     color: #333;
 
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
