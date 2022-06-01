@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
 
-    background: url("../images/intro.jpg") center /*чтобы было по центру*/
+    background: url("../images/intrio.jpg") center /*чтобы было по центру*/
     no-repeat;
     -webkit-background-size: cover; /* чтобы занимало всю площадь экрана*/
     background-size: cover;
@@ -126,4 +126,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav__link:hover::after {
     display: block;
+}
+
+
+
+
+
+
+
+
+.cout {
+    width: 300;
+    height: 450;
+    background: url("../images/intrio.jpg")
 }
