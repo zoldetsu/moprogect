@@ -5,7 +5,8 @@
 
 
 .box__header {
-    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     background: rgb(178, 199, 104);
@@ -17,23 +18,26 @@
 }
 
 .trx {
-    position: absolute;
+    
     font-size: 30px;
     font-weight: 200px;
-    left: 50px;
+    left: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 
-
+.trtt {
+    font-size: 30px;
+    right: 50px;
+}
 
 
 .containerr {
     position: absolute;
     left: 0px;
     top: 100px;
-    width: 1000px;
+     max-width: 1000px;
     height: 1000px;
 
   
@@ -42,13 +46,14 @@
 }
 
 .back {
-   
+    
     background-color: rgb(107, 88, 59);
     padding: 20px; /* внутри*/
     border: 5px solid salmon; /*рамка*/
     margin: 70px;/*снаружи рамки*/
     border-radius: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 700px;
 }
 
 .textt {
@@ -104,15 +109,15 @@
 
 
 .cvaz {
-    position: absolute;
-    bottom: 100px;
-    left: 800px;
+    text-align: center;
+    
+    
 }
 
 .with {
+    margin-top: 900px;
     
-    margin-top: 50px;
-    text-align: center;
+    
 }
 
 

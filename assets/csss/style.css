@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
     */
     align-items: center;
     /*выравнивает лого и эементы в одну линию*/
+    
 }
 
 .header__logo {
@@ -133,10 +134,3 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-.cout {
-    width: 300;
-    height: 450;
-    background: url("../images/intrio.jpg")
-}

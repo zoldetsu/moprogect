@@ -1,0 +1,60 @@
+.header__a {
+    width: 100%;
+    padding-top:25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+    
+
+
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    bottom: 100px;
+
+    
+    
+   
+    
+    
+}
+
+.adap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.con_text {
+   
+}
+
+.con__logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin: 20px;
+
+}
+.text__t {
+    
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: rgb(51, 111, 116);
+    vertical-align: top;
+    transition: color .2s linear;
+    position: relative;
+
+}
+
+.text:hover {
+    opacity: 0,9;
+} 
