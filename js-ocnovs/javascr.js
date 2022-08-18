@@ -1,9 +1,16 @@
-const first = document.body;
-const second = first.childNodes;
-console.log(second);
+const people = [
+    {comment: 'хорош',year: 2001},
+    {comment: 'молодец',year: 2002},
+    {comment: 'гуд',year: 1970},
+    {comment: 'топ',year: 2003},
+];
 
 
 
-for(let nude of second) {
-    console.log(nude);
-}
+const onecom = people.find(person => person.year === 2002);
+console.log(onecom)
+
+
+// if (onecom <= 1){
+//     console.log('rich');
+// }
